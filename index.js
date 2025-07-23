@@ -14,7 +14,7 @@ console.log(a != b && typeof a == 'String')
 
 //&& operador logico, exemplo perguntar se a é maior que b sendo as duas condiçoes verdadeiras ao mesmo tempo usado para comparar os dados
 
-//( typeof a == 'String' ) isso vai perguntar se as duas afirmaçoes são verdadeiras ou não 
+//( typeof a == 'String' ) isso vai perguntar se as duas afirmaçoes fazendo elas serem comparadas e se são verdadeiras ou não 
 
 
 //---------------------------------------------------------------------------------------------------------------------------
@@ -29,5 +29,22 @@ if (cor === 'verde') {
  else('Pare')
 
  //if/else significa se ou senão dando o exemplo do semafaro para interpretar melhor
+
+ //----------------------------------------------------------------------------------------------------------------------
+
+let n = 7;
+
+for(let i = 0; i<=10; i++) {
+
+    console.log(` ${i} x ${n} = ${i * n} `);
+}
+ // este é um laço de repetiçao e as crases sçao utilizadas para  Escrever strings com múltiplas linhas e Precisa colocar variáveis ou expressões dentro do texto
+ 
+for(let i = 0; i<=10; i++) {
+
+    console.log(` ${i} x ${n} = ${i * n} `);
+    console.log(i + " X " + n + " = " + (i * n ));
+}
+
  
 
