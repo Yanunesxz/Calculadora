@@ -45,6 +45,47 @@ for(let i = 0; i<=10; i++) {
     console.log(` ${i} x ${n} = ${i * n} `);
     console.log(i + " X " + n + " = " + (i * n ));
 }
+//+ serve para concatenar ou em outras palavras juntar as informaçoes no console.log
+
+
+
+//-------------------------------------------------------------------------------------------------------------------------
+
+
+function somar(x1, x2){
+  return x1 + x2;
+}
+
+let resultado = somar(1, 2)
+console.log(resultado)
+
+// aqui foi criado uma função de soma e logo apos pedi o return para vir o resultado e logo após com variavel resultado puxei o dado final 
+
+function calc(x1, x2, operador){
+    return eval(` ${x1} ${operador} ${x2}`);
+
+}
+
+let resultadocalc = calc(1,2, "x")
+
+console.log(resultadocalc);
+
+//aqui está uma funçao que utiliza o eval que serve para avaliar uma expressão em forma de string como código executável
+
+(Function(X1, X2, operadorA)){
+
+    return eval(`${x1} ${x2} ${operadorA}`)
+};(1,2,"*")
+
+//esta é uma funçao anonima que pode ser chamada apenas após a criação dela 
+
+
+let calcc = (x1, x2, operador) => {
+
+    return eval(` ${x1} ${operador} ${x2}`)
+}
+
+//aqui está uma função arrow onde 
 
  
 
